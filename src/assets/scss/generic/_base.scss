@@ -1,3 +1,4 @@
+@import '../settings/colors';
 @import '~@avalanche/generic-box-sizing-reset';
 @import '~reset-css/sass/reset';
 
@@ -15,7 +16,7 @@
 body {
   line-height: 1.25; // 1
   background-color: #f9f9f9; // 2
-  color: #222; // 3
+  color: setting-color(text); // 3
   font-family: sans-serif;
 }
 

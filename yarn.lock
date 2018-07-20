@@ -18,6 +18,10 @@
   dependencies:
     "@avalanche/setting-spacings" "^4.0.0-alpha.6"
 
+"@avalanche/setting-colors@^4.0.0-alpha.5":
+  version "4.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@avalanche/setting-colors/-/setting-colors-4.0.0-alpha.5.tgz#760ed408bfc2583063b91eb601e67fcc8e517d13"
+
 "@avalanche/setting-spacings@^4.0.0-alpha.6":
   version "4.0.0-alpha.6"
   resolved "https://registry.yarnpkg.com/@avalanche/setting-spacings/-/setting-spacings-4.0.0-alpha.6.tgz#d395e3b4233601336c6e8759dd3499171681dbfb"
