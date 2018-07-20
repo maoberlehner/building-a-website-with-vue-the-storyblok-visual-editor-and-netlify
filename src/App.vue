@@ -27,7 +27,7 @@
       </nav>
     </header>
 
-    <router-view/>
+    <router-view :class="`${$options.name}__main`"/>
 
     <footer :class="`${$options.name}__footer`">
       &copy; Fancy Company
@@ -65,6 +65,17 @@ export default {
     &:focus {
       text-decoration: underline;
     }
+  }
+
+  &__main {
+    padding-top: setting-spacing(xxl);
+    padding-bottom: setting-spacing(xxl);
+  }
+
+  &__footer {
+    padding-top: setting-spacing(m);
+    padding-bottom: setting-spacing(m);
+    border-top: 1px solid setting-color(b, gray);
   }
 }
 </style>
