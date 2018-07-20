@@ -8,6 +8,10 @@
   dependencies:
     eslint-config-airbnb-base "^12.1.0"
 
+"@avalanche/generic-box-sizing-reset@^4.0.0-alpha.5":
+  version "4.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@avalanche/generic-box-sizing-reset/-/generic-box-sizing-reset-4.0.0-alpha.5.tgz#aa3934c23a8bc2194b310a8e122f8acd112f5431"
+
 "@avalanche/stylelint-config@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@avalanche/stylelint-config/-/stylelint-config-1.0.0.tgz#5ba24f9b89c3986c1680d01c5225ad67a90094d0"
@@ -6425,6 +6429,10 @@ require-uncached@^1.0.3:
 requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+
+reset-css@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/reset-css/-/reset-css-4.0.1.tgz#1f8456a8be478bc435ce9775b7878ec82cca6b05"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"

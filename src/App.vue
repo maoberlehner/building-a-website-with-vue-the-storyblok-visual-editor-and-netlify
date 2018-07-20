@@ -40,3 +40,7 @@ export default {
   name: `App`,
 };
 </script>
+
+<style lang="scss">
+@import './assets/scss/generic/base';
+</style>
