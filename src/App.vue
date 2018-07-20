@@ -1,30 +1,42 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div
+    id="app"
+    :class="$options.name"
+  >
+    <header :class="`${$options.name}__header`">
+      <router-link
+        :class="`${$options.name}__logo`"
+        to="/"
+      >
+        Fancy Company
+      </router-link>
+
+      <nav :class="`${$options.name}__nav`">
+        <router-link
+          :class="`${$options.name}__navLink`"
+          to="/"
+        >
+          Home
+        </router-link> |
+        <router-link
+          :class="`${$options.name}__navLink`"
+          to="/about"
+        >
+          About
+        </router-link>
+      </nav>
+    </header>
+
     <router-view/>
+
+    <footer :class="`${$options.name}__footer`">
+      &copy; Fancy Company
+    </footer>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  color: #2c3e50;
-  text-align: center;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    color: #2c3e50;
-    font-weight: 700;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+<script>
+export default {
+  name: `App`,
+};
+</script>
