@@ -11,8 +11,14 @@ This is an example project for the following article: [Building a Website with V
 # Serve with hot reload.
 npm run serve
 
+# Serve with Storyblok bridge enabled.
+npm run serve-with-sb-bridge
+
 # Build for production with minification.
 npm run build
+
+# Build with Storyblok bridge enabled.
+npm run build-with-sb-bridge
 ```
 
 ## About

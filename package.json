@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve-with-sb-bridge": "STORYBLOK_BRIDGE=true vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-with-sb-bridge": "STORYBLOK_BRIDGE=true npm run build",
     "lint:scripts": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:styles": "stylelint '+(assets|components|layouts|pages)/**/*.+(scss|vue)'",
     "lint": "yarn run lint:scripts && yarn run lint:styles"
@@ -20,6 +22,8 @@
     "node-sass-magic-importer": "^5.2.0",
     "reset-css": "^4.0.1",
     "sass-loader": "^7.0.1",
+    "storyblok-js-client": "^1.0.14",
+    "storyblok-vue": "^1.0.5",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
