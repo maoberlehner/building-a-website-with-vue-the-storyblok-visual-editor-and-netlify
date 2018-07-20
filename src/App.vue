@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    :class="$options.name"
+    :class="[$options.name, `o-container`]"
   >
     <header :class="`${$options.name}__header`">
       <router-link
@@ -43,4 +43,5 @@ export default {
 
 <style lang="scss">
 @import './assets/scss/generic/base';
+@import '{ .o-container } from ~@avalanche/object-container';
 </style>

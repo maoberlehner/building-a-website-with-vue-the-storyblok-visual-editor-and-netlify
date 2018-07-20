@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@avalanche/generic-box-sizing-reset": "^4.0.0-alpha.5",
+    "@avalanche/object-container": "^4.0.0-alpha.8",
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
     "@vue/cli-service": "^3.0.0-rc.5",
     "node-sass": "^4.9.0",
+    "node-sass-magic-importer": "^5.2.0",
     "reset-css": "^4.0.1",
     "sass-loader": "^7.0.1",
     "vue": "^2.5.16",
