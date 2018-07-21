@@ -1,0 +1,13 @@
+@import '../settings/spacings';
+
+.o-content {
+  line-height: 1.5;
+
+  * + * {
+    margin-top: setting-spacing(m);
+  }
+
+  strong {
+    font-weight: 700;
+  }
+}

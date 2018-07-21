@@ -18,6 +18,12 @@
   dependencies:
     "@avalanche/setting-spacings" "^4.0.0-alpha.6"
 
+"@avalanche/object-vertical-spacing@^4.0.0-alpha.5":
+  version "4.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@avalanche/object-vertical-spacing/-/object-vertical-spacing-4.0.0-alpha.5.tgz#b907a304e2dd58fefa407b255499e112503a5801"
+  dependencies:
+    "@avalanche/setting-spacings" "^4.0.0-alpha.6"
+
 "@avalanche/setting-colors@^4.0.0-alpha.5":
   version "4.0.0-alpha.5"
   resolved "https://registry.yarnpkg.com/@avalanche/setting-colors/-/setting-colors-4.0.0-alpha.5.tgz#760ed408bfc2583063b91eb601e67fcc8e517d13"
@@ -4771,6 +4777,10 @@ markdown-escapes@^1.0.0:
 markdown-table@^1.1.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.2.tgz#c78db948fa879903a41bce522e3b96f801c63786"
+
+marked@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.4.0.tgz#9ad2c2a7a1791f10a852e0112f77b571dce10c66"
 
 math-random@^1.0.1:
   version "1.0.1"

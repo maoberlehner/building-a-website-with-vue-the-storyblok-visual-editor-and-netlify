@@ -46,6 +46,11 @@ export default {
 @import './assets/scss/settings/spacings';
 @import './assets/scss/generic/base';
 @import '{ .o-container } from ~@avalanche/object-container';
+@import '{
+  .o-vertical-spacing,
+  .o-vertical-spacing--xxl,
+} from ~@avalanche/object-vertical-spacing';
+@import './assets/scss/objects/content';
 
 .App {
   &__header {
